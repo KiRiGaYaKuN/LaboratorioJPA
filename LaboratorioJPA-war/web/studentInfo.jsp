@@ -51,5 +51,23 @@
                 </tr>
             </c:forEach> 
         </table>
+        <br>
+        <form action="./AgregarAlCurso" method="POST">
+            <table>
+                <tr>
+                    <td>Student Id</td>
+                    <td><input type="text" name="studentId" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Curso ID</td>
+                    <td><input type="text" name="cursoId" value="" /></td>
+                </tr>                
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="action" value="Add" />
+                    </td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
